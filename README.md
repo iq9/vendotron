@@ -41,4 +41,4 @@ The first two actions shoud be allowed in any imaginable order, for example:
 
 1. Write a program that emmulates the Vending Machine.
   1. Choose whatever input method you prefer. CLI is fine, or simulated input from a Test.
-1. Implement a method dispense_change()
+1. Implement a method `dispense_change()`
