@@ -33,12 +33,12 @@ The first two actions shoud be allowed in any imaginable order, for example:
 
 * User may select item first, then insert enough coins to dispense it.
 * User may insert enough coins, then select an item.
-* ^ And any combinations of these 2. Example:
-  * If they select a different item **after** they've already inserted some coins, the "Sale Price" should change to that item. And they should be rewuired to insert that much money.
+* 👆 And **any combinations** of these 2 actions.
+  * If they select a different item **after** they've already inserted some coins, the "Sale Price" should change to that item. They should be rewuired to insert that much money.
 
 
 ### Your Task
 
 1. Write a program that emmulates the Vending Machine.
-  1. Whatever us
+  * Choose whatever input method you prefer. CLI is fine, or simulated input from a Test.
 1. Implement a method dispense_change()
