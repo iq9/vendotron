@@ -16,19 +16,29 @@ $ ruby cli.rb
 
 ## Specs
 
-Provide the functional design of software that controls a vending machine. The vending machine has a predefined set of items that the user can purchase using cash.
+Provide the functional design of software that controls a Vending Machine. The Vending Machine has a predefined set of items that the user can purchase using cash.
 The vending machine has the following actions:
 
 * User inserts cash
 * User selects item
-* Item dispensed if available
-* Change dispensed
+* Item is dispensed if enough money has been inserted
+* Change is dispensed
 * Coin denominations accepted:
-  * Quarter = 25 cents; Dime = 10 cents; Nickel = 5 cents; Penny = 1 cent
+  * Quarter = 25 cents
+  * Dime = 10 cents
+  * Nickel = 5 cents
+  * Penny = 1 cent
 
-The first two actions can be done in interchangeable order - i.e. the user can either select the item first and the item will be dispensed when there is enough cash inserted, or the user can insert cash and then select the item which will be dispensed if the proper amount has been inserted.
+The first two actions shoud be allowed in any imaginable order, for example:
+
+* User may select item first, then insert enough coins to dispense it.
+* User may insert enough coins, then select an item.
+* ^ And any combinations of these 2. Example:
+  * If they select a different item **after** they've already inserted some coins, the "Sale Price" should change to that item. And they should be rewuired to insert that much money.
+
 
 ### Your Task
 
-1. Design the structure of the program that controls the vending machine
+1. Write a program that emmulates the Vending Machine.
+  1. Whatever us
 1. Implement a method dispense_change()
