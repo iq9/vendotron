@@ -34,7 +34,7 @@ The first two actions shoud be allowed in any imaginable order, for example:
 * User may select item first, then insert enough coins to dispense it.
 * User may insert enough coins, then select an item.
 * 👆 And **any combinations** of these 2 actions.
-  * If they select a different item **after** they've already inserted some coins, the "Sale Price" should change to that item. They should be rewuired to insert that much money.
+  * If they select a different item **after** they've already inserted some coins, the "Sale Price" should change to that item. They should be required to insert that much money. They can select a different item as many times as they want.
 
 
 ### Your Task
